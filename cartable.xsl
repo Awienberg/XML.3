@@ -3,55 +3,55 @@
 	xmlns="http://www.w3.org/1999/xhtml">
 
 	<xsl:output method="xml"
-				indent="yes"
-				omit-xml-declaration="no"
+		    indent="yes"
+		    omit-xml-declaration="no"
 	            doctype-system="about:legacy-compat"/>
 
     <xsl:template match="/">
       <html>
         <head>
-		    <title>Cars</title>
-			<meta charset="utf-8"/>
-			    <style>
-					body {
-                        margin: 50px;
-                        background-color: #f7f7f7;
-                        color: #202020;
-                        font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
-                    }
-                    h1 {
-						text-align: center;
-                        padding-bottom: 20px;
-					}
-                    table {
-                        border-collapse: collapse;
-                        margin: 0 auto;
-                        background: #ffffff;
-                        margin: 0 auto;
-                        overflow: hidden;
-                    }
-                    .tablehead {
-                        background-color: #202020;
-                        color: #ffffff;
-                    }
-                    .tablebody {
-                        background-color: #ffffff;
-                        border-bottom: 1px solid #f2f2f2;
-                    }
-                    .tablebody:hover {
-                        background-color: #f2f2f2;
-                    }
-                    table,
-                    td,
-                    th {
-                        padding: 15px;
-                        text-align: left;
-                    }
-                    #buyback {
-                        text-align: center;
-                    }   
-				</style>
-		</head>
+	<title>Cars</title>
+	<meta charset="utf-8"/>
+		<style>
+			body {
+				margin: 50px;
+				background-color: #f7f7f7;
+				color: #202020;
+				font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+			}
+			h1 {
+				text-align: center;
+				padding-bottom: 20px;
+			}
+			table {
+				border-collapse: collapse;
+				margin: 0 auto;
+				background: #ffffff;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			.tablehead {
+				background-color: #202020;
+				color: #ffffff;
+			}
+			.tablebody {
+				background-color: #ffffff;
+				border-bottom: 1px solid #f2f2f2;
+			}
+			.tablebody:hover {
+				background-color: #f2f2f2;
+			}
+			table,
+			td,
+			th {
+				padding: 15px;
+				text-align: left;
+			}
+			#buyback {
+				text-align: center;
+			}   
+		</style>
+	</head>
         <body> 
             <h1>Cars</h1> 
             <table> 
