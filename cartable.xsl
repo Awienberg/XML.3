@@ -27,7 +27,6 @@
 				border-collapse: collapse;
 				margin: 0 auto;
 				background: #ffffff;
-				margin: 0 auto;
 				overflow: hidden;
 			}
 			.tablehead {
